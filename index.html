@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PRUEBA MODULO 1</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
 
     <!-- link de BOOTSTRAP se copia de su pag web-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -28,75 +28,82 @@
 <!--NAVBAR-->
 
 <header class="custom-header">
-  <nav class="navbar navbar-dark navbar-expand-md bg-dark px-5">
-      <div class="container-fluid d-flex justify-content-between">
-          <a class="navbar-brand" href="#"><b>CV</b> PABLO LUNA</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-              aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
+       <nav class="navbar navbar-dark navbar-expand-md bg-dark px-5">
+           <div class="container-fluid d-flex justify-content-between">
+               <a class="navbar-brand" href="#"><b>CV</b> PABLO LUNA</a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                   data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                   aria-expanded="false" aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon"></span>
+               </button>
+     
+               <div class="collapse navbar-collapse w-100 justify-content-end" id="navbarSupportedContent">
+                   <ul class="navbar-nav mb-0 mb-lg-0 ">
+                       <ul class="navbar-nav ms-auto"> <!-- ms-auto (asi lleva el menú a la derecha)-->
+     
+                         <li class="nav-item">
+                           <a class="nav-link" href="#inicio">INICIO</a>
+                         </li>
+                           <li class="nav-item">
+                             <a class="nav-link" href="#formacion">FORMACION</a>
+                           </li>
+                           <li class="nav-item">
+                             <a class="nav-link" href="#habilidad">HABILIDAD</a>
+                           </li>
+                           <li class="nav-item">
+                             <a class="nav-link" href="#experiencia">EXPERIENCIA</a>
+                           </li>
+                           <li class="nav-item">
+                             <a class="nav-link" href="#portafolio">PORTAFOLIO</a>
+                           </li>
+                           <li class="nav-item">
+                             <a class="nav-link" href="#contacto">CONTACTO</a>
+                           </li>
+                         </ul>
+                   </ul>
+               </div>
+           </div>
+       </nav>
+     
+     </header>
+     
+     <main>
+       <div class="portada" id="inicio">
+         <div class="portada-texto">
+             <h1>todo es <b>DISEÑO</b></h1>
+             <p>color forma imagen</p>
+         </div>
+       </div>
+     </main>
+     
+<!--NAVBAR FIN-->
 
-          <div class="collapse navbar-collapse w-100 justify-content-end" id="navbarSupportedContent">
-              <ul class="navbar-nav mb-0 mb-lg-0 ">
-                  <ul class="navbar-nav ms-auto"> <!-- ms-auto (asi lleva el menú a la derecha)-->
-
-                    <li class="nav-item">
-                      <a class="nav-link" href="#inicio">INICIO</a>
-                    </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#formacion">FORMACION</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#habilidad">HABILIDAD</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#experiencia">EXPERIENCIA</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#portafolio">PORTAFOLIO</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#contacto">CONTACTO</a>
-                      </li>
-                    </ul>
-              </ul>
-          </div>
-      </div>
-  </nav>
-
-</header>
-
-<main>
-  <div class="portada" id="inicio">
-    <div class="portada-texto">
-        <h1>todo es <b>DISEÑO</b></h1>
-        <p>color forma imagen</p>
-    </div>
-  </div>
-</main>
 
 
-<!--NAVBAR fin-->
 
-<!-- TARJETA Diseñador -->
-<div>
 
-  <div class="flex-container mt-5">
-      <div class="foto">
-          <img class="imagen" src="./assets/img/003.jpg" alt="Foto CV">
-      </div>
-      <div class="flex-container mt-3">
-          <div>
-              <h3>Pablo Luna</h3>
-                  <h6>Diseñador Gráfico</h6><small> <i> <p>El diseño gráfico es un campo creativo y técnico que se centra en la creación de soluciones visuales para comunicar ideas, información o emociones de manera clara, atractiva y efectiva. Usando una combinación de imágenes, texto, color, tipografía y otros elementos visuales para transmitir un mensaje específico a un público determinado.
-                  </p> </i> </small>
-                  
-          </div>
-      </div>
-  </div>
 
-</div>
+
+<!--TARJETA DISEÑADOR-->
+
+              <div class="flex-container">
+                     <div class="foto">
+                            <img class="imagen" src="./assets/img/003.jpg" alt="Foto CV">
+                     </div>
+                     <div class="flex-container">
+                            <h3>Pablo Luna</h3>
+                            <h6>Diseñador Gráfico</h6><small> <i> 
+                            <div class="texto">
+                            <p>El diseño gráfico es un campo creativo y técnico que se centra en la creación de soluciones visuales para comunicar ideas, información o emociones de manera clara, atractiva y efectiva. Usando una combinación de imágenes, texto, color, tipografía y otros elementos visuales para transmitir un mensaje específico a un público determinado.
+                            </p> </i> </small>
+
+                            </div>
+                     </div>
+              </div>
+
+<!--TARJETA DISEÑADOR FIN-->
+
+
 
 <br><br>
 
@@ -105,7 +112,7 @@
 
 
 
-<!-- TARJETA Formación -->
+<!--TARJETA FORMACION-->
 
 <div class="Encabezados" id="formacion">
   <h3>Formación</h3>
@@ -133,143 +140,158 @@
 <br>
 <hr style="margin: 0px 50px 0px 50px" />
 
-<!-- TARJETA Habilidad -->
+<!--TARJETA FORMACION FIN-->
+
+
+
+<!--TARJETA HABILIDAD-->
 
 <div class="Encabezados" id="habilidad">
-  <h3>Habilidad</h3>
-</div>
+       <h3>Habilidad</h3>
+     </div>
+     
+     <div class="flex-container-habilidad">
+     
+       <div class="icon">
+         <img src="./assets/img/icon-adobe.png" width="300px" alt="">
+       </div>
+     
+       <div class="icon">
+         <img src="./assets/img/icon-media.png" width="300px" alt="">
+       </div>
+     
+     </div>
+     
+     
+     <br><br><br>
+     
+     <hr style="margin: 0px 50px 0px 50px" />
 
-<div class="flex-container-habilidad">
-
-  <div class="icon">
-    <img src="./assets/img/icon-adobe.png" width="300px" alt="">
-  </div>
-
-  <div class="icon">
-    <img src="./assets/img/icon-media.png" width="300px" alt="">
-  </div>
-
-</div>
-
-
-<br><br><br>
-
-<hr style="margin: 0px 50px 0px 50px" />
-
-
-<!-- TARJETA Experiencia -->
-
-
-<div class="Encabezados" id="experiencia">
-  <h3>Experiencia</h3>
-</div>
-
-<div class="flex-container-experiencia">
-
-  <div class="texto-experiencia">
-          <h5>Proceso Editorial</h5>
-          <p>Libros y Revistas.</p>
-          <h5>Identidad Corporativa</h5>
-          <p>Empresarial.</p>
-  </div>
-
-  <div class="texto-experiencia">
-    <h5>Campañas Marketing</h5>
-    <h5>Ilustración Digital</h5>
-    <h5>Desarrollo Web</h5>
-  </div>
-
-</div>
+     <!--TARJETA HABILIDAD FIN-->
+     
+     
+     <!--TARJETA EXPERIENCIA-->
+     
+     
+     <div class="Encabezados" id="experiencia">
+       <h3>Experiencia</h3>
+     </div>
+     
+     <div class="flex-container-experiencia">
+     
+       <div class="texto-experiencia">
+               <h5>Proceso Editorial</h5>
+               <p>Libros y Revistas.</p>
+               <h5>Identidad Corporativa</h5>
+               <p>Empresarial.</p>
+       </div>
+     
+       <div class="texto-experiencia">
+         <h5>Campañas Marketing</h5>
+         <h5>Ilustración Digital</h5>
+         <h5>Desarrollo Web</h5>
+       </div>
+     
+     </div>
+     
+     <!--TARJETA EXPERIENCIA FIN-->
+     
+     
+     <br><br><br>
+     
+     <hr style="margin: 0px 50px 0px 50px" />
+     
 
 
-
-<br><br><br>
-
-<hr style="margin: 0px 50px 0px 50px" />
-
-
-
-<!-- TARJETA Portafolio -->
+<!--TARJETA PORTAFOLIO-->
 
 <div class="Encabezados" id="portafolio">
-  <h3>Portafolio</h3>
-</div>
+       <h3>Portafolio</h3>
+     </div>
+     
+     <div class="flex-container-portafolio">
+     
+         <div class="texto-portafolio">
+           <img src="./assets/img/revistas.jpg" alt="">
+               <h5>Proceso Editorial</h5>
+               <p>Libros y Revistas</p>
+         </div>
+     
+           <div class="texto-portafolio">
+           <img src="./assets/img/identidad.jpg" alt="">
+               <h5>Identidad Corporativa</h5>
+               <p>Empresarial</p>
+           </div>
+     
+           <div class="texto-portafolio">
+             <img src="./assets/img/ilustracion.jpg" alt="">
+                 <h5>Ilustración</h5>
+                 <p>Digital</p>
+           </div>
+       
+             <div class="texto-portafolio">
+             <img src="./assets/img/espacio3.jpg" alt="">
+                 <h5>Space Page</h5>
+                 <p>Desafío Latam</p>
+             </div>
+             
+           <div class="texto-portafolio">
+             <img src="./assets/img/iguanas3.jpg" alt="">
+                 <h5>Iguana Page</h5>
+                 <p>Desafío Latam</p>
+           </div>
+       
+             <div class="texto-portafolio">
+             <img src="./assets/img/cuppon3.jpg" alt="">
+                 <h5>Cuppon Page</h5>
+                 <p>Desafío Latam</p>
+             </div>
+     
+     </div>
+     
+<!--TARJETA PORTAFOLIO FIN-->
 
-<div class="flex-container-portafolio">
-
-    <div class="texto-portafolio">
-      <img src="./assets/img/revistas.jpg" alt="">
-          <h5>Proceso Editorial</h5>
-          <p>Libros y Revistas</p>
-    </div>
-
-      <div class="texto-portafolio">
-      <img src="./assets/img/identidad.jpg" alt="">
-          <h5>Identidad Corporativa</h5>
-          <p>Empresarial</p>
-      </div>
-
-      <div class="texto-portafolio">
-        <img src="./assets/img/ilustracion.jpg" alt="">
-            <h5>Ilustración</h5>
-            <p>Digital</p>
-      </div>
-  
-        <div class="texto-portafolio">
-        <img src="./assets/img/espacio3.jpg" alt="">
-            <h5>Space Page</h5>
-            <p>Desafío Latam</p>
-        </div>
-        
-      <div class="texto-portafolio">
-        <img src="./assets/img/iguanas3.jpg" alt="">
-            <h5>Iguana Page</h5>
-            <p>Desafío Latam</p>
-      </div>
-  
-        <div class="texto-portafolio">
-        <img src="./assets/img/cuppon3.jpg" alt="">
-            <h5>Cuppon Page</h5>
-            <p>Desafío Latam</p>
-        </div>
-
-</div>
 
 
 
 
-<!--<section id="INICIO"></section>
-<section id="FORMACION"></section>
-<section id="HABILIDAD"></section>
-<section id="EXPERIENCIA"></section>
-<section id="PORTAFOLIO"></section>-->
-
-<br><br><br>
-
-<!-- FORMULARIO -->
+<!--FORMULARIO-->
 
 <section class="formulario" style="text-align: center;" id="contacto" >
 
-  <h5>Contacto</h5>
+       <h5>Contacto</h5>
+     
+         <p><i class="fa-brands fa-whatsapp"></i> +569 8591 8100</p>
+         <p><i class="fa-solid fa-envelope"></i> plunacontacto@gmail.com</p>
+         
+     
+          <input class="relleno" type="text" name="nombre" placeholder="Nombre">
+                 <br>
+          <input class="relleno" type="text" name="correo" placeholder="Correo Electrónico">
+                 <br>
+          <textarea class="relleno" type="text" name="mensaje" placeholder="Mensaje"></textarea>
+                 <br>
+          <input class="boton" type="submit" value="Enviar">
+     </section>
 
-    <p><i class="fa-brands fa-whatsapp"></i> +569 8591 8100</p>
-    <p><i class="fa-solid fa-envelope"></i> plunacontacto@gmail.com</p>
-    
+<!--FORMULARIO FIN-->
 
-     <input class="relleno" type="text" name="nombre" placeholder="Nombre">
-            <br>
-     <input class="relleno" type="text" name="correo" placeholder="Correo Electrónico">
-            <br>
-     <textarea class="relleno" type="text" name="mensaje" placeholder="Mensaje"></textarea>
-            <br>
-     <input class="boton" type="submit" value="Enviar">
-</section>
 
-<footer class="footer">
-  <p>&copy; 2025 Todos los derechos reservados</p> 
-</footer>
+<!--FOOTER-->
 
-      
+     <footer class="footer">
+       <p>&copy; 2025 Todos los derechos reservados</p> 
+     </footer>
+
+ <!--FOOTER FIN-->
+
+
+
+
+
+
+
+
 
 
 
@@ -278,5 +300,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>
+
+
+
 
 </html>
