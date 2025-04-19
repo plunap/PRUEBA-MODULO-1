@@ -311,10 +311,25 @@ html{
 }
 
 .boton{
+    background-color:rgb(97, 3, 184);
+    color: white;
     border: none;
     padding: 5px;
     width: 100px;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover{
+    background-color: rgb(115, 19, 204);
+}
+
+input, textarea{
+    background-color: rgb(62, 67, 73);
+}
+
+:focus{
+    outline: 1px solid rgb(97, 3, 184);
 }
 
 .footer p{
