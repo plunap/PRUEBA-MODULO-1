@@ -282,13 +282,28 @@
     color: white;
     border: none;
     padding: 5px;
+    margin: 5px;
     width: 100px;
     border-radius: 5px;
     cursor: pointer;
 }
 
+.formulario a{
+    text-decoration: none;
+    padding: 6px;
+    margin: 20px;
+    background-color: dimgrey;
+    background-color:rgb(97, 3, 184);
+    color: white;
+}
+
 .boton:hover{
     background-color: rgb(115, 19, 204);
+}
+
+.formulario a:hover{
+    background-color: rgb(115, 19, 204);
+    color: white;
 }
 
 input, textarea{
