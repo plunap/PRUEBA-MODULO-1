@@ -75,7 +75,7 @@
 
 .texto{
     display: flex;
-    text-align: center;
+    text-align: justify;
     align-content: center;
     margin-top: 5px;
     line-height: normal;
@@ -299,11 +299,11 @@
 }
 
 .boton:hover{
-    background-color: rgb(115, 19, 204);
+    background-color: rgb(140, 65, 209);
 }
 
 .formulario a:hover{
-    background-color: rgb(115, 19, 204);
+    background-color: rgb(140, 65, 209);
     color: white;
 }
 
