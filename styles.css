@@ -298,6 +298,10 @@
     color: white;
 }
 
+.formulario p{
+    align-content: center;
+}
+
 .boton:hover{
     background-color: rgb(140, 65, 209);
 }
